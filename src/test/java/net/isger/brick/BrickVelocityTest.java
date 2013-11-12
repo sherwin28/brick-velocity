@@ -17,4 +17,5 @@ public class BrickVelocityTest extends TestCase {
     public void testVelocity() {
         assertTrue(true);
     }
+
 }
