@@ -6,7 +6,8 @@ import java.util.List;
 public class DefaultDirectiveLibrary implements DirectiveLibrary {
 
     public List<Class<?>> getDirectiveClasses() {
-        return Arrays.asList(new Class<?>[] {});
+        Class<?>[] directives = new Class[] { ComponentDirective.class };
+        return Arrays.asList(directives);
     }
 
 }

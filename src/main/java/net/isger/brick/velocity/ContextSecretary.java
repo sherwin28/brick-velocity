@@ -1,5 +1,11 @@
 package net.isger.brick.velocity;
 
+/**
+ * 上下文策略
+ * 
+ * @author issing
+ * 
+ */
 public class ContextSecretary {
 
     private LayoutBean layout;

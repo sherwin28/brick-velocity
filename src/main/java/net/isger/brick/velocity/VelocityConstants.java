@@ -2,6 +2,8 @@ package net.isger.brick.velocity;
 
 public interface VelocityConstants {
 
+    public static final String KEY_ENGINE = "brick.engine";
+
     public static final String KEY_LAYOUT_PATH = "brick.layout.path";
 
     public static final String LAYOUT_PATH = "/layout";
